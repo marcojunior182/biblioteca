@@ -1,0 +1,31 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "Project to learn node.js and noSQL",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha './!(node_modules)/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcojunior182/biblioteca.git"
+  },
+  "keywords": [
+    "node.js",
+    "noSQL",
+    "library"
+  ],
+  "author": "Marco Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcojunior182/biblioteca/issues"
+  },
+  "homepage": "https://github.com/marcojunior182/biblioteca#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "mongodb": "^3.1.1",
+    "nodemon": "^1.18.3"
+  }
+}
